@@ -1,0 +1,84 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(246, 242, 242);
+  height: 100vh;
+}
+
+section:first-of-type {
+  padding-top: 5vh;
+  text-align: center;
+}
+
+h1 {
+  font-size: 30px;
+  margin-bottom: 2vh;
+}
+
+h2 {
+  font-size: 20px;
+  margin-bottom: 2vh;
+}
+
+input[type="text"] {
+  width: 30vw;
+  height: 3.5vh;
+  border: 1px solid white;
+  border-radius: 10px;
+  background-color: white;
+}
+
+input[type="submit"] {
+  width: 12.5vw;
+  height: 3.5vh;
+  border: 1px solid orangered;
+  border-radius: 10px;
+  background-color: orangered;
+  color: white;
+  font-size: 12px;
+  margin-bottom: 2vh;
+}
+
+input[type="button"] {
+  width: 14vw;
+  height: 3.5vh;
+  border: 1px solid orangered;
+  border-radius: 10px;
+  font-size: 12px;
+  margin-bottom: 10vh;
+  cursor: pointer;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 0 10vw;
+  gap: 2vh;
+}
+
+.infos {
+  background-color: rgb(243, 166, 138);
+  border: 1px solid black;
+  border-radius: 10px;
+  text-align: center;
+  padding: 3vw;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5vh;
+  color: black;
+  width: 30vw;
+}
+
+.regisseur {
+  margin-bottom: 2vh;
+}
